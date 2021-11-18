@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quiénes somos?</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header class= "site-header content-header"> 
+        <!-- style=background-image: url("{{ url_for('static', filename='img/fondo2.jpg') }}") -->
+        
+        <div class="barra">
+            <img class="logo" src="{{ url_for('static', filename='img/logo.png') }}" alt="logo">
+            <nav class="navegation">
+                <a href="/eleccion" class="button">crea tu menu</a>
+                <!-- <a href="/" class="button">¿Quiénes somos?</a> -->
+                <a href="/" class="button">Sobre las ODS y nuestro proyecto</a>
+                
+
+            </nav>
+        </div>
+        <h1>Grupo 4 sec.8 TEI101 2021</h1>
+    </header><!-- Este es el header -->
+    <main class="contendor">
+        <h2>¿Quiénes somos?</h2>
+        <div class="equipo">
+            <section class="persona">
+                <img src="{{ url_for('static', filename='img/nacha.jpeg') }}" alt="Nacha">
+                <h3>María-Ignacia Soto</h3>
+                <h4>Gestión de informes y presentaciones</h4>
+                <ul>
+                    <li>Carrera: Ing Civil</li>
+                    <li>Edad: 18</li>
+                </ul>
+                <p>María-Ignacia se encarga de redactar y entregar informes y realizar las presetaciones ecesarias durante todo el proceso.
+                </p>
+            </section>
+            <section class="persona">
+                <img src="{{ url_for('static', filename='img/javi.jpeg') }}" alt="Javi">
+                <h3>Javiera Marín</h3>
+                <h4>Encargada de programación página de inicio y estética</h4>
+                <ul>
+                    <li>Carrera: Ing Civil</li>
+                    <li>Edad: 19</li>
+                </ul>
+                <p> Javiera es la persona encargada de realizar todo el programa de estética de la página web y además programar lo que sería las páginas de presetación, inicio, etc.
+                </p>
+            </section>
+            <section class="persona">
+                <img src="{{ url_for('static', filename='img/vale.jpeg') }}" alt="Vale">
+                <h3>Valentín Palma</h3>
+                <h4>Encargado de calendarizar las fechas y realizar preguntas al profesor
+                </h4>
+                <ul>
+                    <li>Carrera: Ing Civil</li>
+                    <li>Edad: 18</li>
+                </ul>
+                <p>Valentín se encarga de recordar las fechas de las distintas entregas al grupo y realizar las preguntas que puedan surgir.
+                </p>
+            </section>
+            <section class="persona">
+                <img src="{{ url_for('static', filename='img/suazo.jpeg') }}" alt="Suazo">
+                <h3>Emilio Suazo</h3>
+                <h4>Encargado de programación de la solución</h4>
+                <ul>
+                    <li>Carrera: Ing Civil</li>
+                    <li>Edad: 18</li>
+                </ul>
+                <p>Su labor es programar todo lo que vendría siendo la solución propuesta por el grupo y el objetivo principal de la página
+                </p>
+            </section>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>

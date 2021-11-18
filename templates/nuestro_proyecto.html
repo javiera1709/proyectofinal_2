@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head style="border:2ram solid DodgerBlue;"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestro proyecto</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header class="site-header content-header">
+        <div class="barra">
+            <img class="logo" src="{{ url_for('static', filename='img/logo.png') }}" alt="logo">
+            <nav class="navegation">
+                <a href="/eleccion" class="button">crea tu menu</a>
+                <a href="/proyecto" class="button">¿Quiénes somos?</a>
+                
+                
+
+            </nav>
+        </div>
+        
+    </header>
+    <div>
+        <img class="ODS" src="{{ url_for('static', filename='img/ods.jpg') }}" alt="ods">
+
+        <h1 style="padding-left: 3rem;line-height: 1;color: lightslategrey;">Objetivos de desarrollo sostenible:</h1>
+        <h1 style="padding-left: 3rem;line-height: 1,5; color: lightslategrey;">Producción y consumo responsable</h1>
+        <header class="Intro">
+
+            <div style="background-color:rgba(255, 99, 71, 0.5);">
+            <h1>¿Qué son las ODS?</h1>
+            </div>
+            <p style="font-size:125%;" class="intro" >
+                Según la Organización de Naciones Unidas (ONU), son un conjunto de objetivos globales para erradicar la pobreza, proteger el planeta y asegurar la prosperidad para todos como parte de una nueva agenda de desarrollo sostenible. Cada objetivo tiene metas específicas que deben alcanzarse los próximos 15 años.
+            
+            </p>
+            <div>
+        </header>    
+        <header class="Preguntas" >
+            <div style="background-color:rgba(255, 99, 71, 0.5);">
+                <h1>Objetivo 12: Producción y consumo responsable </h1>
+            </div>
+            <p style="font-size:125%;" class="intro" >
+                La ONU asegura que el consumo y producción mundial es dependen del uso del medio ambiente natural y de los recursos de una manera continua, teniendo efectos destructivos sobre el planeta.
+            </p>
+
+            <p style="font-size:125%;" class="intro" >
+                Cada año, se estima que un tercio de toda la comida producida (el equivalente a 1300 millones de toneladas, con un valor cercano al billón de dólares) acaba pudriéndose en los cubos de basura de los consumidores Y minoristas. 
+            </p>
+            <div style="background-color:rgba(255, 99, 71, 0.5);">
+                <h1>¿Qué es el consumo y producción responsable? </h1>
+            </div>
+            <p style="font-size:125%;" class="intro" >
+                El consumo y la producción sostenibles consisten en hacer más y mejor con menos. También se trata de desvincular el crecimiento económico de la degradación medioambiental, aumentar la eficiencia de recursos y promover estilos de vida sostenibles
+            </p>
+            <div style="background-color:rgba(255, 99, 71, 0.5);">
+                <h1>¿Por qué es relevante? </h1>
+            </div>
+            <p style="font-size:125%;" class="intro" >
+                El consumo y la producción sostenibles también pueden contribuir de manera sustancial a la mitigación de la pobreza y la transición hacia economías verdes y con bajas emisiones de carbono.
+            </p>
+
+            <div style="background-color:rgba(255, 99, 71, 0.5);">
+            <h1>¿Cómo podemos ayudar en nuestras casas?</h1>
+            </div>
+
+            <ul>
+ 
+            <li style="font-size:125%;"> Considerar el impacto ambiental de los productos que compramos, valorando los procesos de producción, transporte, distribución, consumo y residuos que deja el producto punto. </li>
+            <li style="font-size:125%;"> Informarse sobre la huella ecológica que distintos estilos de vida y consumismo producen. </li>
+            <li style="font-size:125%;"> Determinar que empresas, productos y servicios respetan el medio ambiente. </li>
+            </ul>
+
+            <div style="background-color:rgba(255, 99, 71, 0.5);">
+                <h1>¿Qué hacemos nosotros? </h1>
+            </div>
+            <p style="font-size:125%;" class="intro" >
+                Nosotros proveemos una plataforma en la cual puedes ingresar los alimentos disponibles en tu casa coma como sobras o alimentos con los que no sabes qué cocinar, y arroja ideas de menú en base a eso. ¡Solo debes escoger entre las opciones disponibles y nosotros te ayudamos! Aquí hay un ejemplo:
+            </p>
+            
+            <table style="padding: 8ram;width: 100%;font-size:150%;background-color:rgba(197, 71, 255, 0.432);border: 1ram solid #dddddd;text-align: center;padding: 8ram;border-collapse: collapse;font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;" class="Tabla"> 
+            <thead>
+                <th>Categoría alimento  </th>
+                <th>Nombre alimento  </th>
+                <th>Menú</th>
+            </thead>
+            <tr>
+                <td>Fruta</td>
+                <td>Manzana  </td>
+                <td> Menú 1: </td>
+            </tr>
+            <tr>
+                <td>Fruta </td>
+                <td>Plátano  </td>
+                <td> Asado con tallarines</td>
+            </tr>
+            <tr>
+                <td>Proteína </td>
+                <td>Asado </td>
+                <td> y manzana (postre) </td>
+            </tr>
+            <tr>
+                <td>Proteína</td>
+                <td> Pescado  </td>
+                <td> Menú 2: </td>
+            </tr>
+            <tr>
+                <td>Carbohidratos</td>
+                <td> Arroz </td>
+                <td> Pescado con arroz </td>
+            </tr>
+            <tr>
+                <td> Carbohidratos</td>
+                <td> Tallarines </td>
+                <td> y plátano (postre) </td>
+            </tr>
+            </table>
+            </div>
+        </div>
+
+    </header>
+
+</body>
+<footer></footer>
+</html>

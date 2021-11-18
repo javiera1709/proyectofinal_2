@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Elige tu Menú</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        Menú
+      </h1>
+      <h2>
+        Elige lo que tengas disponible:
+      </h2>
+    <div class="container">
+      <form action ="/Menú" method="POST">
+      <div class="columns">
+          <div class="column">
+              <label class="label">Proteina</label>
+              <div class="select is-rounded">
+                  <select name= "proteina[]" id="proteina"> 
+                      <option value= "vacio"  >-------</option>
+                      <option value= "Carne_molida"  >Carne molida</option>
+                      <option value="Cordero"  >Cordero</option>
+                      <option value="Pollo"  >Pollo</option>
+                      <option value="Atún" >Atún</option>
+                      
+                  </select>
+              <div class="select is-rounded mt-2"> 
+                  <select name= "proteina[]" id="proteina2">
+                    <option value= "vacio"  >-------</option> 
+                    <option value= "Carne_molida"  >Carne molida</option>
+                    <option value="Cordero"  >Cordero</option>
+                    <option value="Pollo"  >Pollo</option>
+                    <option value="Atún" >Atún</option>
+                   
+                  </select>
+              <div class="select is-rounded mt-2"> 
+                  <select name= "proteina[]" id="proteina3">
+                    <option value= "vacio"  >-------</option>
+                    <option value= "Carne_molida"  >Carne molida</option>
+                    <option value="Cordero"  >Cordero</option>
+                    <option value="Pollo"  >Pollo</option>
+                    <option value="Atún" >Atún</option>
+                 
+                  </select>
+              <div class="container mt-2"> 
+                <button class="button mt-5">Ve tu menu</button>
+                <a href="/" class="button mt-5">inicio</a>
+                
+              </div>   
+              </div>   
+              </div> 
+              </div>
+          </div>
+          <div class="column">
+              <label class="label">Fruta</label>
+              <div class="select is-rounded">
+                <select name= "fruta[]" id=fruta>
+                  <option value= "vacio"  >-------</option>
+                  <option value="Manzanas">Manzanas</option>
+                  <option value="Plátanos">Plátanos</option>
+                  <option value="Cerezas">Cerezas </option>
+                  <option value="Duraznos">Duraznos</option>
+                </select>
+                
+              
+              <div class="select is-rounded mt-2">
+                <select name= "fruta[]" id=fruta2>
+                  <option value= "vacio"  >-------</option>
+                  <option value="Manzanas">Manzanas</option>
+                  <option value="Plátanos">Plátanos</option>
+                  <option value="Cerezas">Cerezas </option>
+                  <option value="Duraznos">Duraznos</option>
+                </select>
+              <div class="select is-rounded mt-2">
+                  <select name= "fruta[]" id=fruta3>
+                    <option value= "vacio"  >-------</option>
+                    <option value="Manzanas">Manzanas</option>
+                    <option value="Plátanos">Plátanos</option>
+                    <option value="Cerezas">Cerezas </option>
+                    <option value="Duraznos">Duraznos</option>
+                  </select>
+              </div>
+              </div>
+              </div>
+          </div>
+          <div class="column">
+              <label class="label">Vegetales</label>
+              <div class="select is-rounded">
+                  <select name="vegetales[]" id="vegetales"> 
+                    <option value= "vacio"  >-------</option>
+                    <option value="Apio">Apio</option>
+                    <option value="Champiñones">Champiñones</option>
+                    <option value="Tomate">Tomate</option>
+                    <option value="Lechuga">Lechuga</option>
+                  </select>
+              <div class="select is-rounded mt-2">
+                    <select name="vegetales[]" id="vegetales2">
+                      <option value= "vacio"  >-------</option> 
+                      <option value="Apio">Apio</option>
+                      <option value="Champiñones">Champiñones</option>
+                      <option value="Tomate">Tomate</option>
+                      <option value="Lechuga">Lechuga</option>
+                    </select>
+              <div class="select is-rounded mt-2">
+                      <select name="vegetales[]" id="vegetales3">
+                        <option value= "vacio"  >-------</option> 
+                        <option value="Apio">Apio</option>
+                        <option value="Champiñones">Champiñones</option>
+                        <option value="Tomate">Tomate</option>
+                        <option value="Lechuga">Lechuga</option>
+                      </select>
+                    
+              </div>
+              </div>
+              </div>
+          </div>
+          <div class="column">
+              <label class="label">Legumbres</label>
+              <div class="select is-rounded">
+                  <select name="Legumbres[]" id="Legumbres"> 
+                    <option value= "vacio"  >-------</option>
+                    <option value="Papas">Papas</option>
+                    <option value="Poroto_negro">Poroto negro</option>
+                    <option value="Habas">Habas</option>
+                    <option value="frijol">frijol</option>
+                  </select>
+              <div class="select is-rounded mt-2">
+                    <select name="Legumbres[]" id="Legumbres2"> 
+                      <option value= "vacio"  >-------</option>
+                      <option value="Papas">Papas</option>
+                      <option value="Poroto_negro">Poroto negro</option>
+                      <option value="Habas">Habas</option>
+                      <option value="frijol">frijol</option>
+                    </select>
+              <div class="select is-rounded mt-2">
+                      <select name="Legumbres[]" id="Legumbres3"> 
+                        <option value= "vacio"  >-------</option>
+                        <option value="Papas">Papas</option>
+                        <option value="Poroto_negro">Poroto negro</option>
+                        <option value="Habas">Habas</option>
+                        <option value="frijol">frijol</option>
+                      </select>
+                    
+                          
+              </div>        
+              </div>  
+              </div>
+              </div>       
+              
+          </div>
+      
+        </div>
+         
+      </form>
+    </div>
+  
+  </div>
+  </body>
+</html>
